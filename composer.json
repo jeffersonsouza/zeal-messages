@@ -1,6 +1,6 @@
 {
-    "name": "zealproject/zeal-messages",
-    "description": "Simple helper/controller plugin for showing app messages",
+    "name": "jeffersonsouza/zeal-messages",
+    "description": "Fork for a Simple helper/controller plugin for showing app messages from Tim Fountain<tim@tfountain.co.uk>",
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-0": {
@@ -10,12 +10,19 @@
             "./Module.php"
         ]
     },
-    "authors": [{
-        "name": "Tim Fountain",
-        "email": "tim@tfountain.co.uk",
-        "homepage": "http://tfountain.co.uk/",
-        "role": "developer"
-    }],
+    "authors": [
+        {
+            "name": "Tim Fountain",
+            "email": "tim@tfountain.co.uk",
+            "homepage": "http://tfountain.co.uk/",
+            "role": "developer"
+        },{
+            "name": "Jefferson Souza",
+            "email": "email@jeffersonsouza.com.br",
+            "homepage": "http://jeffersonsouza.com.br/",
+            "role": "developer"
+        }
+    ],
     "require": {
         "php": ">=5.3.3"
     }
