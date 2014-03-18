@@ -21,10 +21,13 @@ class Messages extends AbstractHelper
         }
 
         $html = '';
+        $type = '';
+
         foreach ($this->messages as $key => $messagesArray) {
+            $type = $key;
             $html .= '<ul class="'.$key.'"><li>'.implode('</li><li>', $messagesArray).'</li></ul>';
         }
 
-        return '<div id="messages">'.$html.'</div>';
+        return '<div id="messages" class="' . $type . '"><button type="button" class="fa fa-times-circle close-alert" data-dismiss="alert" aria-hidden="true"></button>'.$html.'</div>';
     }
 }
